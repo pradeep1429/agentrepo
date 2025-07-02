@@ -1,0 +1,1 @@
+package com.agent.pages;\n\nimport org.openqa.selenium.WebElement;\n\npublic abstract class AbstractElement {\n    protected WebElement element;\n\n    public AbstractElement(WebElement element) {\n        this.element = element;\n    }\n\n    public abstract void click();\n\n    public abstract void setText(String text);\n\n    public abstract String getText();\n}

@@ -1,0 +1,1 @@
+package com.agent.utils;\n\nimport org.apache.logging.log4j.LogManager;\nimport org.apache.logging.log4j.Logger;\n\npublic class LoggerManager {\n    private static Logger logger = LogManager.getLogger(LoggerManager.class);\n\n    public static Logger getLogger() {\n        return logger;\n    }\n}
